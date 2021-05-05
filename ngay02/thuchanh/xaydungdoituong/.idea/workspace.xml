@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8eb5a18e-aa63-47b6-80b9-1d4ebad035bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/word.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1s6m1jmqzgO3tWEI2Q8M4OpZW4X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\module5_angular\ngay02\thuchanh\xaydungdoituong\node_modules\prettier" />
+    <property name="ts.external.directory.path" value="D:\module5_angular\ngay02\thuchanh\xaydungdoituong\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eb5a18e-aa63-47b6-80b9-1d4ebad035bb" name="Default Changelist" comment="" />
+      <created>1620201200024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620201200024</updated>
+      <workItem from="1620201201268" duration="4427000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/Shapes.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/IArea.js" />
+        <option value="$PROJECT_DIR$/src/Rectangle.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620202015848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="451" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1620202015848" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1620204457661">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1620204457661" />
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1620206176973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620206176973" />
+  </component>
+</project>

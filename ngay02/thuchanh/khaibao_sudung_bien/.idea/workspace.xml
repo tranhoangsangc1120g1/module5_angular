@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3e59014-18a4-470d-9780-fd93fc51b39a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/app/word.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../th-khaibao-sudung-bien/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1s6fNjq3XFG0qrgskVMDJ0zMoRP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\module5_angular\ngay02\thuchanh\khaibao_sudung_bien\node_modules\prettier" />
+    <property name="ts.external.directory.path" value="D:\module5_angular\ngay02\thuchanh\khaibao_sudung_bien\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3e59014-18a4-470d-9780-fd93fc51b39a" name="Default Changelist" comment="" />
+      <created>1620197921478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620197921478</updated>
+      <workItem from="1620197923178" duration="2338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1620200521769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620200521769" />
+  </component>
+</project>
