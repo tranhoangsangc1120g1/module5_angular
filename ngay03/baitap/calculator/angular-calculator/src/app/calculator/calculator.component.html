@@ -1,0 +1,12 @@
+<input type="number" #first >
+<select #operate >
+  <option value="+"  >+</option>
+  <option value="-" >-</option>
+  <option value="*" >*</option>
+  <option value="/" >/</option>
+</select>
+<input type="number" #second >
+<button (click)="calculate(first.value,second.value,operate.value)">=</button>
+<h2>{{result}}</h2>
+
+
