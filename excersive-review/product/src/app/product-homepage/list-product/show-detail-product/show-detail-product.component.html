@@ -1,0 +1,36 @@
+<div *ngIf="productDetail">
+  <h1 style="color: teal" class="text-uppercase mb-5">view product</h1>
+  <table class="table table-hover">
+    <tbody>
+    <tr>
+      <th>ID</th>
+      <td>{{productDetail.id}}</td>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <td>{{productDetail.name | titlecase}}</td>
+    </tr>
+    <tr>
+      <th>Price</th>
+      <td>{{productDetail.price | currency:'đ'}}</td>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <td>{{productDetail.date | date: 'dd/MM/yyyy'}}</td>
+    </tr>
+    <tr>
+      <th>Quantity</th>
+      <td>{{productDetail.quantity}}</td>
+    </tr>
+    <tr>
+      <th>Origin</th>
+      <td>{{productDetail.origin}}</td>
+    </tr>
+    <tr>
+<!--      <td *ngIf="productDetail.quantity == 0">-->
+<!--        <button class="btn btn-warning" (click)="editProduct()">Update Quantity</button>-->
+<!--      </td>-->
+    </tr>
+    </tbody>
+  </table>
+</div>
