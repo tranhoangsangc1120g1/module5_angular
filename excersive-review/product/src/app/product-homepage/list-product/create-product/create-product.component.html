@@ -1,1 +1,38 @@
-<p>create-product works!</p>
+<div class="container">
+  <div class="card border-success mt-4">
+    <h3>Create new <b style="color: green">Product </b></h3>
+    <div class="card-body">
+      <div class="form-group">
+        <label >ID</label>
+        <input type="text" class="form-control" #id>
+      </div>
+      <div class="form-group">
+        <label >Name</label>
+        <input type="text" class="form-control" #name>
+      </div>
+      <div class="form-group">
+        <label >Cost</label>
+        <input type="text" class="form-control" #price>
+      </div>
+      <div class="form-group">
+        <label >Date Start</label>
+        <input type="text" class="form-control" #date>
+      </div>
+      <div class="form-group">
+        <label >Quantity</label>
+        <input type="number" class="form-control" #quantity>
+      </div>
+      <div class="form-group">
+        <label >Origin</label>
+        <select  class="form-control" #origin>
+          <option value="VN">Vn</option>
+          <option value="CN">China</option>
+          <option value="USA">USA</option>
+          <option value="ENG">ENG</option>
+        </select>
+      </div>
+      <button type="button" class="btn btn-primary" (click)="createProduct(id.value, name.value, price.value,
+    date.value, quantity.value, origin.value)">Create</button>
+    </div>
+  </div>
+</div>
