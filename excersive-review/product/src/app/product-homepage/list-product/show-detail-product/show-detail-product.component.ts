@@ -9,14 +9,15 @@ import {Product} from "../../../model/Product";
 export class ShowDetailProductComponent implements OnInit {
   @Input('product')productDetail:Product|undefined;
   @Output('productEdit') onEdit = new EventEmitter<number>();
+  public product:Product;
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  editProduct(productDetail:Product,addMore:number){
-      this.productDetail.quantity=addMore;
+  editProduct(productEdit:Product,value: string) {
+    productEdit.quantity=parseInt(value)
     // @ts-ignore
-    this.onEdit.emit(productDetail);
+    this.onEdit.emit(productEdit)
   }
 }
