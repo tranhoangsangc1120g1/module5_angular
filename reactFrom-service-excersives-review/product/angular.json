@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "reactive-form": {
+    "product": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/reactive-form",
+            "outputPath": "dist/product",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -66,18 +66,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "reactive-form:build"
+            "browserTarget": "product:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "reactive-form:build:production"
+              "browserTarget": "product:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reactive-form:build"
+            "browserTarget": "product:build"
           }
         },
         "test": {
@@ -114,19 +114,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "reactive-form:serve"
+            "devServerTarget": "product:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "reactive-form:serve:production"
+              "devServerTarget": "product:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "reactive-form",
+  "defaultProject": "product",
   "cli": {
-    "analytics": "d5f1069e-b577-48d7-a1fc-51e6bd609440"
+    "analytics": "0495632a-6957-49e4-a27b-d129f0fea9ea"
   }
 }

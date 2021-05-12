@@ -8,15 +8,14 @@
           <label for="email">Email </label>
           <input type="text" id="email" name="email" formControlName="email">
         </p>
-        <div *ngIf="!email.valid && (email.dirty ||email.touched)">
-          <div [hidden]="!email.errors.required">
+        <div *ngIf="!rfRegister.controls.email.valid && (rfRegister.controls.email.dirty ||rfRegister.controls.email.touched)">
+          <div [hidden]="!rfRegister.controls.email.errors.required">
             email is required
           </div>
-          <div [hidden]="!email.errors.email">
+          <div [hidden]="!rfRegister.controls.email.errors.email">
             invalid email id
           </div>
         </div>
-
         <p>
           <label for="confirmPassword">Last Name </label>
           <input type="text" id="confirmPassword" name="confirmPassword" formControlName="confirmPassword">

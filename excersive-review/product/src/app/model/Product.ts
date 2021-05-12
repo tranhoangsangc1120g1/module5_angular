@@ -6,8 +6,6 @@ export class Product {
   private _origin:string;
   private _quantity:number;
 
-
-
   constructor(id: number, name: string, price: number, date: Date, quantity: number, origin: string) {
     this._id = id;
     this._name = name;

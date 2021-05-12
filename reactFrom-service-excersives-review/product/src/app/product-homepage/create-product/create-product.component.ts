@@ -1,0 +1,40 @@
+import {Component, OnInit} from '@angular/core';
+import {FormControl, FormGroup} from "@angular/forms";
+import {ProductServiceService} from "../../productService/product-service.service";
+import {Router} from "@angular/router";
+
+@Component({
+  selector: 'app-create-product',
+  templateUrl: './create-product.component.html',
+  styleUrls: ['./create-product.component.scss']
+})
+export class CreateProductComponent implements OnInit {
+  rfProduct: FormGroup;
+
+  constructor(private _productService: ProductServiceService,
+              private _router: Router) {
+  }
+
+  ngOnInit(): void {
+    this.rfProduct = new FormGroup({
+      name: new FormControl(),
+      id: new FormControl(),
+      price: new FormControl(),
+      date: new FormControl(),
+      origin:new FormControl(),
+      quantity:new FormControl()
+    })
+  }
+
+  onSubmit() {
+    if (this.rfProduct.valid){
+      this._productService.save(this.rfProduct.value)
+      console.log(this.rfProduct.value)
+      this._router.navigateByUrl("/home")
+    }
+  }
+
+  onResetPro() {
+    this.rfProduct.reset()
+  }
+}

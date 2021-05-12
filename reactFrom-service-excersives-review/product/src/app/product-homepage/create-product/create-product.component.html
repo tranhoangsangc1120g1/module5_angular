@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="card border-success mt-4">
+    <h3>Create new <b style="color: green">Product </b></h3>
+    <form [formGroup]="rfProduct" (ngSubmit)="onSubmit()">
+    <div class="card-body">
+      <div class="form-group">
+        <label >ID</label>
+        <input type="text" class="form-control" formControlName="id">
+      </div>
+      <div class="form-group">
+        <label >Name</label>
+        <input type="text" class="form-control" formControlName="name">
+      </div>
+      <div class="form-group">
+        <label >Cost</label>
+        <input type="text" class="form-control" formControlName="price">
+      </div>
+      <div class="form-group">
+        <label >Date Start</label>
+        <input type="date" class="form-control" formControlName="date">
+      </div>
+      <div class="form-group">
+        <label >Quantity</label>
+        <input type="number" class="form-control" formControlName="quantity">
+      </div>
+      <div class="form-group">
+        <label >Origin</label>
+        <select  class="form-control" formControlName="origin">
+          <option value="VN">Vn</option>
+          <option value="CN">China</option>
+          <option value="USA">USA</option>
+          <option value="ENG">ENG</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary" [hidden]="rfProduct.invalid" >Create</button>
+      <button type="button" class="btn btn-primary" (click)="onResetPro()" >Reset</button>
+    </div>
+    </form>
+  </div>
+</div>
