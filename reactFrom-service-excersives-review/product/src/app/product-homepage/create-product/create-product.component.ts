@@ -11,8 +11,9 @@ import {Router} from "@angular/router";
 export class CreateProductComponent implements OnInit {
   rfProduct: FormGroup;
 
-  constructor(private _productService: ProductServiceService,
-              private _router: Router) {
+  constructor(
+    private _productService: ProductServiceService,
+    private _router: Router) {
   }
 
   ngOnInit(): void {
@@ -21,16 +22,17 @@ export class CreateProductComponent implements OnInit {
       id: new FormControl(),
       price: new FormControl(),
       date: new FormControl(),
-      origin:new FormControl(),
-      quantity:new FormControl()
+      origin: new FormControl(),
+      quantity: new FormControl()
     })
   }
 
   onSubmit() {
-    if (this.rfProduct.valid){
-      this._productService.save(this.rfProduct.value)
+    if (this.rfProduct.valid) {
+      this._productService.save(this.rfProduct.value).subscribe((data)=>{
+        this._router.navigateByUrl("/home")
+      })
       console.log(this.rfProduct.value)
-      this._router.navigateByUrl("/home")
     }
   }
 

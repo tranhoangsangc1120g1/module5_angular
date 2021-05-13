@@ -17,9 +17,14 @@ export class ShowDetailProductComponent implements OnInit {
     this._activeRoute.paramMap.subscribe((params:ParamMap)=>{
       const id = parseInt(params.get('id'));
       console.log(id + 'la id nhan dc');
-      this.product=this._productService.getProductById(id);
-
+      this._productService.getProductById(id).subscribe((data)=>{
+        this.product=data;
+      });
     })
   }
 
+  editProduct(product:Product,value:string) {
+    product.quantity=parseInt(value);
+    this._productService.save(this.product)
+  }
 }

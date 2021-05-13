@@ -15,7 +15,11 @@ export class ListProductComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.productList=this._productServiceService.products;
+   this._productServiceService.products.subscribe((data) =>{
+     this.productList=data;
+   },error =>{
+     console.log(error)
+   });
   }
   showDetail(index:number){
     console.log(index + "id nhan dc")
