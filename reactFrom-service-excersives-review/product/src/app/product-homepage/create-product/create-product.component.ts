@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {FormControl, FormGroup} from "@angular/forms";
 import {ProductServiceService} from "../../productService/product-service.service";
-import {Router} from "@angular/router";
+import {ActivatedRoute, ParamMap, Router} from "@angular/router";
+import {Product} from "../../model/product";
 
 @Component({
   selector: 'app-create-product',
@@ -10,10 +11,12 @@ import {Router} from "@angular/router";
 })
 export class CreateProductComponent implements OnInit {
   rfProduct: FormGroup;
+  product:Product;
 
   constructor(
     private _productService: ProductServiceService,
-    private _router: Router) {
+    private _router: Router,
+    private _activeRoute:ActivatedRoute) {
   }
 
   ngOnInit(): void {
@@ -38,5 +41,14 @@ export class CreateProductComponent implements OnInit {
 
   onResetPro() {
     this.rfProduct.reset()
+  }
+  editProduct(){
+    this._activeRoute.paramMap.subscribe((params:ParamMap)=>{
+      const id = parseInt(params.get('id'));
+      console.log(id + 'la id nhan dc');
+      this._productService.getProductById(id).subscribe((data)=>{
+        this.product=data;
+      });
+    })
   }
 }

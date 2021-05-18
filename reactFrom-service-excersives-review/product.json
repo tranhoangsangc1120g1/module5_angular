@@ -1,0 +1,44 @@
+{
+  "productList": [
+    {
+      "id": 1,
+      "name": "di dong",
+      "price": 1500,
+      "date": "2001/12/12",
+      "origin": "VN",
+      "quantity": 0
+    },
+    {
+      "id": 2,
+      "name": "di dong",
+      "price": 1500,
+      "date": "2001/12/12",
+      "origin": "VN",
+      "quantity": 0
+    },
+    {
+      "id": 3,
+      "name": "di dong",
+      "price": 1500,
+      "date": "2001/12/12",
+      "origin": "USA",
+      "quantity": 0
+    },
+    {
+      "name": "sss",
+      "id": 4,
+      "price": "132",
+      "date": "2021-05-03",
+      "origin": "CN",
+      "quantity": 12
+    },
+    {
+      "name": "bbbb",
+      "price": "15555",
+      "date": "2021-05-11",
+      "origin": "VN",
+      "quantity": 12,
+      "id": 5
+    }
+  ]
+}

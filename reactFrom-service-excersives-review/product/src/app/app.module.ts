@@ -7,7 +7,7 @@ import { ListProductComponent } from './product-homepage/list-product/list-produ
 import { CreateProductComponent } from './product-homepage/create-product/create-product.component';
 import { ShowDetailProductComponent } from './product-homepage/show-detail-product/show-detail-product.component';
 import { ProductHomepageComponent } from './product-homepage/product-homepage.component';
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
@@ -22,7 +22,8 @@ import {HttpClientModule} from "@angular/common/http";
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -10,19 +10,37 @@ import {Router} from "@angular/router";
 })
 export class ListProductComponent implements OnInit {
   public productList:Product[]=[];
+
+  ITEMS = ["name", "price", "origin", "date"];
+
+  selected = "name";
+
   constructor(private _productServiceService:ProductServiceService,
               private _router:Router) {
   }
 
   ngOnInit(): void {
-   this._productServiceService.products.subscribe((data) =>{
-     this.productList=data;
-   },error =>{
-     console.log(error)
-   });
+   this.loadData();
   }
-  showDetail(index:number){
-    console.log(index + "id nhan dc")
-    this._router.navigate(["/detail",index])
+
+  loadData (): void {
+    this._productServiceService.products.subscribe(res =>{
+      this.productList = res;
+    },error =>{
+      console.log(error)
+    });
+  }
+
+  deleteItem(id: number): void {
+    this._productServiceService.delete(id).subscribe(() => {
+      this.loadData();
+    });
+  }
+
+  search(keywords: string) {
+    console.log(keywords, this.selected);
+    this._productServiceService.search(keywords, this.selected).subscribe(res => {
+      this.productList = res;
+    });
   }
 }

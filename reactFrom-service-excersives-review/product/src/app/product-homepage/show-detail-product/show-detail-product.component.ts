@@ -21,6 +21,7 @@ export class ShowDetailProductComponent implements OnInit {
         this.product=data;
       });
     })
+    const id: string = this._activeRoute.snapshot.params.id;
   }
 
   editProduct(product:Product,value:string) {

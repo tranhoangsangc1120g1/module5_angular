@@ -4,6 +4,12 @@
     <div class="col-6">
       <div class="card border-primary">
         <h1>List Product</h1>
+        <div>
+          <input type="text" [placeholder]="selected === 'date' ? 'exp: yyyy-mm-dd' : selected" (keyup)="search($event.target.value)"/>
+          <select [(ngModel)]="selected">
+            <option *ngFor="let item of ITEMS" [ngValue]="item">{{item}}</option>
+          </select>
+        </div>
         <div class="card-body">
           <div *ngIf="productList.length ;else nodata">
             <table class="table-primary">
@@ -16,10 +22,11 @@
                 <th>Date</th>
                 <th>Status</th>
                 <th>Origin</th>
+                <th>Action</th>
               </tr>
               </thead>
               <tbody>
-              <tr *ngFor="let pro of productList,let i=index" (click)="showDetail(pro.id)" >
+              <tr *ngFor="let pro of productList,let i=index">
                 <td>{{i + 1}}</td>
                 <td>{{pro.id}}</td>
                 <td><a [routerLink]="['/detail',pro.id]">{{pro.name|titlecase}}</a></td>
@@ -31,6 +38,12 @@
                   <p *ngIf="pro.quantity>=10" [ngClass]="'Con-nhieu'">còn nhiều</p>
                 </td>
                 <td>{{pro.origin}}</td>
+                <td>
+                  <button type="button" class="btn btn-danger" (click)="deleteItem(pro.id)">Delete</button>
+                </td>
+                <td>
+                  <button type="button" class="btn btn-danger" ><a>Edit</a></button>
+                </td>
               </tr>
               </tbody>
             </table>
